@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+  identity_url: https://nuevodetailing.netlify.app/.netlify/identity
+  gateway_url: https://nuevodetailing.netlify.app/.netlify/git
 
 media_folder: "photos/Bentley_files"
 public_folder: "photos/Bentley_files"
@@ -12,6 +14,6 @@ collections:
     create: true
     delete: true
     fields:
-      - { label: "Photo", name: "title", widget: "string" }
+      - { label: "Photo Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Category", name: "category", widget: "select", options: ["Exterior", "Interior"] }
