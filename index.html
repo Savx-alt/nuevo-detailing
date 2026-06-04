@@ -1352,5 +1352,10 @@
     }
   });
 </script>
+<script>
+  if (window.location.hash && window.location.hash.includes('invite_token')) {
+    window.location.href = '/admin/' + window.location.hash;
+  }
+</script>
 </body>
 </html>
