@@ -1,9 +1,8 @@
 backend:
-  name: github
-  repo: Savx-alt/nuevo-detailing
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+
+local_backend: true
 
 media_folder: "photos/Bentley_files"
 public_folder: "photos/Bentley_files"
