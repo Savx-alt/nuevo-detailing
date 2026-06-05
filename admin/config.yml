@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Savx-alt/nuevo-detailing
   branch: main
 
 media_folder: "photos/Bentley_files"
