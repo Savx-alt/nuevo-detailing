@@ -8,7 +8,9 @@ collections_config:
       include:
         - index.html
     _enabled_editors:
+      - visual
       - content
+      - data
 
   gallery:
     path: _gallery
