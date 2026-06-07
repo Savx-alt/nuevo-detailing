@@ -1,0 +1,5 @@
+title: Nuevo Detailing
+collections:
+  gallery:
+    output: false
+    path: _gallery
