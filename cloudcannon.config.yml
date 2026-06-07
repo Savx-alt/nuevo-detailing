@@ -1,0 +1,35 @@
+collections_config:
+  gallery:
+    path: photos/Bentley_files
+    name: gallery
+    label: Gallery Photos
+    icon: image
+    _enabled_editors:
+      - data
+    add_options:
+      - name: Add Photo
+        schema: default
+    schemas:
+      default:
+        path: .cloudcannon/schemas/photo.md
+    _inputs:
+      title:
+        type: text
+        label: Photo Title
+      category:
+        type: select
+        label: Category
+        options:
+          values:
+            - Exterior
+            - Interior
+      image:
+        type: image
+        label: Photo
+        uploads_dir: photos/Bentley_files
+
+uploads_dir: photos/Bentley_files
+
+_inputs:
+  title:
+    type: text
