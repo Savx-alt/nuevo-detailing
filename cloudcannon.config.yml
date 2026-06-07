@@ -8,19 +8,15 @@ collections_config:
       include:
         - index.html
     _enabled_editors:
-      - visual
       - content
 
   gallery:
-    path: photos/Bentley_files
+    path: _data
     name: gallery
     label: Gallery Photos
     icon: image
     _enabled_editors:
       - data
-    schemas:
-      default:
-        path: .cloudcannon/schemas/photo.md
     _inputs:
       title:
         type: text
@@ -32,7 +28,7 @@ collections_config:
           values:
             - Exterior
             - Interior
-      image:
+      src:
         type: image
         label: Photo
         uploads_dir: photos/Bentley_files
