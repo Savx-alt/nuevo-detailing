@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Test
-category: Exterior
+title:
+category: Interior
 image: /uploads/download-2.jpg
 ---
