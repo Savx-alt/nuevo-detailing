@@ -10,24 +10,27 @@ collections_config:
     _enabled_editors:
       - content
 
-data_config:
   gallery:
-    path: _data/gallery.yml
-
-_inputs:
-  src:
-    type: image
-    label: Photo
-    uploads_dir: photos/Bentley_files
-  alt:
-    type: text
-    label: Photo Title
-  category:
-    type: select
-    label: Category
-    options:
-      values:
-        - exterior
-        - interior
+    path: _gallery
+    name: gallery
+    label: Gallery Photos
+    icon: image
+    _enabled_editors:
+      - data
+    _inputs:
+      title:
+        type: text
+        label: Photo Title
+      category:
+        type: select
+        label: Category
+        options:
+          values:
+            - exterior
+            - interior
+      image:
+        type: image
+        label: Photo
+        uploads_dir: photos/Bentley_files
 
 uploads_dir: photos/Bentley_files
