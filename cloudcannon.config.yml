@@ -1,4 +1,16 @@
 collections_config:
+  pages:
+    path: ''
+    name: pages
+    label: Pages
+    icon: wysiwyg
+    filter:
+      include:
+        - index.html
+    _enabled_editors:
+      - visual
+      - content
+
   gallery:
     path: photos/Bentley_files
     name: gallery
@@ -6,9 +18,6 @@ collections_config:
     icon: image
     _enabled_editors:
       - data
-    add_options:
-      - name: Add Photo
-        schema: default
     schemas:
       default:
         path: .cloudcannon/schemas/photo.md
@@ -29,7 +38,3 @@ collections_config:
         uploads_dir: photos/Bentley_files
 
 uploads_dir: photos/Bentley_files
-
-_inputs:
-  title:
-    type: text
