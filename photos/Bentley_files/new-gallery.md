@@ -1,6 +1,6 @@
 ---
 _schema: default
-title:
+title: hhh
 category: Interior
 image: /uploads/download-2.jpg
 ---
