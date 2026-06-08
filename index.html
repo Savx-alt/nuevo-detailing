@@ -424,7 +424,7 @@ footer_tagline: >-
     </div>
   </div>
   <div class="gallery-grid" id="galleryGrid">
-    {% for photo in site.data.gallery %}
+    {% assign gallery_photos = site.gallery %}{% for photo in gallery_photos %}
     <div class="gallery-item reveal" data-cat="{{ photo.category }}">
       <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy" />
       <div class="gallery-overlay">
