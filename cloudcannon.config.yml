@@ -1,12 +1,9 @@
 collections_config:
   pages:
     path: ''
-    name: pages
-    label: Pages
+    name: Pages ( Edit Text)
     icon: wysiwyg
-    filter:
-      include:
-        - index.html
+    disable_url: false
     _enabled_editors:
       - visual
       - content
@@ -14,236 +11,318 @@ collections_config:
     _inputs:
       hero_eyebrow:
         type: text
-        label: "Hero — Top Label"
+        label: Hero — Top Label
+        cascade: true
       hero_title:
         type: text
-        label: "Hero — Main Title"
+        label: Hero — Main Title
+        cascade: true
       hero_subtitle:
         type: text
-        label: "Hero — Subtitle"
+        label: Hero — Subtitle
+        cascade: true
       hero_cta_primary:
         type: text
-        label: "Hero — Primary Button Text"
+        label: Hero — Primary Button Text
+        cascade: true
       hero_cta_secondary:
         type: text
-        label: "Hero — Secondary Button Text"
+        label: Hero — Secondary Button Text
+        cascade: true
       about_label:
         type: text
-        label: "About — Section Label"
+        label: About — Section Label
+        cascade: true
       about_title:
         type: text
-        label: "About — Title"
+        label: About — Title
+        cascade: true
       about_p1:
         type: textarea
-        label: "About — Paragraph 1"
+        label: About — Paragraph 1
+        cascade: true
       about_p2:
         type: textarea
-        label: "About — Paragraph 2"
+        label: About — Paragraph 2
+        cascade: true
       about_p3:
         type: textarea
-        label: "About — Paragraph 3"
+        label: About — Paragraph 3
+        cascade: true
       stat1_num:
         type: text
-        label: "Stat 1 — Number"
+        label: Stat 1 — Number
+        cascade: true
       stat1_label:
         type: text
-        label: "Stat 1 — Label"
+        label: Stat 1 — Label
+        cascade: true
       stat2_num:
         type: text
-        label: "Stat 2 — Number"
+        label: Stat 2 — Number
+        cascade: true
       stat2_label:
         type: text
-        label: "Stat 2 — Label"
+        label: Stat 2 — Label
+        cascade: true
       stat3_num:
         type: text
-        label: "Stat 3 — Number"
+        label: Stat 3 — Number
+        cascade: true
       stat3_label:
         type: text
-        label: "Stat 3 — Label"
+        label: Stat 3 — Label
+        cascade: true
       services_label:
         type: text
-        label: "Services — Section Label"
+        label: Services — Section Label
+        cascade: true
       services_title:
         type: text
-        label: "Services — Title"
+        label: Services — Title
+        cascade: true
       svc1_name:
         type: text
-        label: "Service 1 — Name"
+        label: Service 1 — Name
+        cascade: true
       svc1_desc:
         type: textarea
-        label: "Service 1 — Description"
+        label: Service 1 — Description
+        cascade: true
       svc2_name:
         type: text
-        label: "Service 2 — Name"
+        label: Service 2 — Name
+        cascade: true
       svc2_desc:
         type: textarea
-        label: "Service 2 — Description"
+        label: Service 2 — Description
+        cascade: true
       svc3_name:
         type: text
-        label: "Service 3 — Name"
+        label: Service 3 — Name
+        cascade: true
       svc3_desc:
         type: textarea
-        label: "Service 3 — Description"
+        label: Service 3 — Description
+        cascade: true
       svc4_name:
         type: text
-        label: "Service 4 — Name"
+        label: Service 4 — Name
+        cascade: true
       svc4_desc:
         type: textarea
-        label: "Service 4 — Description"
+        label: Service 4 — Description
+        cascade: true
       svc5_name:
         type: text
-        label: "Service 5 — Name"
+        label: Service 5 — Name
+        cascade: true
       svc5_desc:
         type: textarea
-        label: "Service 5 — Description"
+        label: Service 5 — Description
+        cascade: true
       svc6_name:
         type: text
-        label: "Service 6 — Name"
+        label: Service 6 — Name
+        cascade: true
       svc6_desc:
         type: textarea
-        label: "Service 6 — Description"
+        label: Service 6 — Description
+        cascade: true
       gallery_label:
         type: text
-        label: "Gallery — Section Label"
+        label: Gallery — Section Label
+        cascade: true
       gallery_title:
         type: text
-        label: "Gallery — Title"
+        label: Gallery — Title
+        cascade: true
       process_label:
         type: text
-        label: "Process — Section Label"
+        label: Process — Section Label
+        cascade: true
       process_title:
         type: text
-        label: "Process — Title"
+        label: Process — Title
+        cascade: true
       step1_title:
         type: text
-        label: "Step 1 — Title"
+        label: Step 1 — Title
+        cascade: true
       step1_desc:
         type: textarea
-        label: "Step 1 — Description"
+        label: Step 1 — Description
+        cascade: true
       step2_title:
         type: text
-        label: "Step 2 — Title"
+        label: Step 2 — Title
+        cascade: true
       step2_desc:
         type: textarea
-        label: "Step 2 — Description"
+        label: Step 2 — Description
+        cascade: true
       step3_title:
         type: text
-        label: "Step 3 — Title"
+        label: Step 3 — Title
+        cascade: true
       step3_desc:
         type: textarea
-        label: "Step 3 — Description"
+        label: Step 3 — Description
+        cascade: true
       step4_title:
         type: text
-        label: "Step 4 — Title"
+        label: Step 4 — Title
+        cascade: true
       step4_desc:
         type: textarea
-        label: "Step 4 — Description"
+        label: Step 4 — Description
+        cascade: true
       reviews_label:
         type: text
-        label: "Reviews — Section Label"
+        label: Reviews — Section Label
+        cascade: true
       reviews_title:
         type: text
-        label: "Reviews — Title"
+        label: Reviews — Title
+        cascade: true
       review1_text:
         type: textarea
-        label: "Review 1 — Text"
+        label: Review 1 — Text
+        cascade: true
       review1_author:
         type: text
-        label: "Review 1 — Author"
+        label: Review 1 — Author
+        cascade: true
       review1_car:
         type: text
-        label: "Review 1 — Car & Service"
+        label: Review 1 — Car & Service
+        cascade: true
       review2_text:
         type: textarea
-        label: "Review 2 — Text"
+        label: Review 2 — Text
+        cascade: true
       review2_author:
         type: text
-        label: "Review 2 — Author"
+        label: Review 2 — Author
+        cascade: true
       review2_car:
         type: text
-        label: "Review 2 — Car & Service"
+        label: Review 2 — Car & Service
+        cascade: true
       review3_text:
         type: textarea
-        label: "Review 3 — Text"
+        label: Review 3 — Text
+        cascade: true
       review3_author:
         type: text
-        label: "Review 3 — Author"
+        label: Review 3 — Author
+        cascade: true
       review3_car:
         type: text
-        label: "Review 3 — Car & Service"
+        label: Review 3 — Car & Service
+        cascade: true
       review4_text:
         type: textarea
-        label: "Review 4 — Text"
+        label: Review 4 — Text
+        cascade: true
       review4_author:
         type: text
-        label: "Review 4 — Author"
+        label: Review 4 — Author
+        cascade: true
       review4_car:
         type: text
-        label: "Review 4 — Car & Service"
+        label: Review 4 — Car & Service
+        cascade: true
       review5_text:
         type: textarea
-        label: "Review 5 — Text"
+        label: Review 5 — Text
+        cascade: true
       review5_author:
         type: text
-        label: "Review 5 — Author"
+        label: Review 5 — Author
+        cascade: true
       review5_car:
         type: text
-        label: "Review 5 — Car & Service"
+        label: Review 5 — Car & Service
+        cascade: true
       review6_text:
         type: textarea
-        label: "Review 6 — Text"
+        label: Review 6 — Text
+        cascade: true
       review6_author:
         type: text
-        label: "Review 6 — Author"
+        label: Review 6 — Author
+        cascade: true
       review6_car:
         type: text
-        label: "Review 6 — Car & Service"
+        label: Review 6 — Car & Service
+        cascade: true
       contact_label:
         type: text
-        label: "Contact — Section Label"
+        label: Contact — Section Label
+        cascade: true
       contact_title:
         type: text
-        label: "Contact — Title"
+        label: Contact — Title
+        cascade: true
       contact_intro:
         type: textarea
-        label: "Contact — Intro Text"
+        label: Contact — Intro Text
+        cascade: true
       contact_phone:
         type: text
-        label: "Contact — Phone Number"
+        label: Contact — Phone Number
+        cascade: true
       contact_instagram:
         type: text
-        label: "Contact — Instagram Handle"
+        label: Contact — Instagram Handle
+        cascade: true
       contact_area:
         type: text
-        label: "Contact — Service Area"
+        label: Contact — Service Area
+        cascade: true
       footer_tagline:
         type: textarea
-        label: "Footer — Tagline"
-
+        label: Footer — Tagline
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   gallery:
     path: _gallery
-    name: gallery
-    label: Gallery Photos
+    name: Gallery (Edit Photos)
     icon: image
-    schemas:
-      default:
-        path: .cloudcannon/schemas/photo.md
+    disable_url: false
     _enabled_editors:
       - data
     _inputs:
       src:
         type: image
         label: Photo
+        cascade: true
         uploads_dir: uploads
       alt:
         type: text
         label: Alt Text
+        cascade: true
       category:
         type: select
-        label: Category
         options:
+          allow_empty: true
           values:
             - exterior
             - interior
-
+        label: Category
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default:
+        path: .cloudcannon/schemas/photo.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+timezone: Etc/UTC
 uploads_dir: uploads
