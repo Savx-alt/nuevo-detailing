@@ -240,6 +240,9 @@ collections_config:
     name: gallery
     label: Gallery Photos
     icon: image
+    schemas:
+      default:
+        path: .cloudcannon/schemas/photo.md
     _enabled_editors:
       - data
     _inputs:
