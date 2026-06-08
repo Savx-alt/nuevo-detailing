@@ -2,6 +2,7 @@ collections_config:
   pages:
     path: ''
     name: Pages ( Edit Text)
+    singular_name:
     icon: wysiwyg
     disable_url: false
     _enabled_editors:
