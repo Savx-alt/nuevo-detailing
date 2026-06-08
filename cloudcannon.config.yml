@@ -28,7 +28,6 @@ collections_config:
       hero_cta_secondary:
         type: text
         label: "Hero — Secondary Button Text"
-
       # ABOUT
       about_label:
         type: text
@@ -63,7 +62,6 @@ collections_config:
       stat3_label:
         type: text
         label: "Stat 3 — Label"
-
       # SERVICES
       services_label:
         type: text
@@ -107,7 +105,6 @@ collections_config:
       svc6_desc:
         type: textarea
         label: "Service 6 — Description"
-
       # GALLERY
       gallery_label:
         type: text
@@ -115,7 +112,6 @@ collections_config:
       gallery_title:
         type: text
         label: "Gallery — Title"
-
       # PROCESS
       process_label:
         type: text
@@ -147,7 +143,6 @@ collections_config:
       step4_desc:
         type: textarea
         label: "Step 4 — Description"
-
       # REVIEWS
       reviews_label:
         type: text
@@ -209,7 +204,6 @@ collections_config:
       review6_car:
         type: text
         label: "Review 6 — Car & Service"
-
       # CONTACT
       contact_label:
         type: text
@@ -229,33 +223,22 @@ collections_config:
       contact_area:
         type: text
         label: "Contact — Service Area"
-
       # FOOTER
       footer_tagline:
         type: textarea
         label: "Footer — Tagline"
 
   gallery:
-    path: _gallery
+    path: _data
     name: gallery
     label: Gallery Photos
     icon: image
-    schemas:
-      default:
-        path: .cloudcannon/schemas/photo.md
+    filter:
+      include:
+        - gallery.yml
     _enabled_editors:
       - data
     _inputs:
-      title:
-        type: text
-        label: Photo Title
-      category:
-        type: select
-        label: Category
-        options:
-          values:
-            - exterior
-            - interior
       src:
         type: image
         label: Photo
@@ -263,5 +246,12 @@ collections_config:
       alt:
         type: text
         label: Alt Text
+      category:
+        type: select
+        label: Category
+        options:
+          values:
+            - exterior
+            - interior
 
 uploads_dir: uploads
