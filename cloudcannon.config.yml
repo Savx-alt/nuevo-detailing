@@ -220,9 +220,16 @@ collections_config:
         type: textarea
         label: "Footer — Tagline"
 
-data_config:
   gallery:
-    path: _data/gallery.yml
+    path: _gallery
+    name: gallery
+    label: Gallery Photos
+    icon: image
+    schemas:
+      default:
+        path: .cloudcannon/schemas/photo.md
+    _enabled_editors:
+      - data
     _inputs:
       src:
         type: image
