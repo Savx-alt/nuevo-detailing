@@ -11,6 +11,229 @@ collections_config:
       - visual
       - content
       - data
+    _inputs:
+      # HERO
+      hero_eyebrow:
+        type: text
+        label: "Hero — Top Label"
+      hero_title:
+        type: text
+        label: "Hero — Main Title"
+      hero_subtitle:
+        type: text
+        label: "Hero — Subtitle"
+      hero_cta_primary:
+        type: text
+        label: "Hero — Primary Button Text"
+      hero_cta_secondary:
+        type: text
+        label: "Hero — Secondary Button Text"
+
+      # ABOUT
+      about_label:
+        type: text
+        label: "About — Section Label"
+      about_title:
+        type: text
+        label: "About — Title"
+      about_p1:
+        type: textarea
+        label: "About — Paragraph 1"
+      about_p2:
+        type: textarea
+        label: "About — Paragraph 2"
+      about_p3:
+        type: textarea
+        label: "About — Paragraph 3"
+      stat1_num:
+        type: text
+        label: "Stat 1 — Number"
+      stat1_label:
+        type: text
+        label: "Stat 1 — Label"
+      stat2_num:
+        type: text
+        label: "Stat 2 — Number"
+      stat2_label:
+        type: text
+        label: "Stat 2 — Label"
+      stat3_num:
+        type: text
+        label: "Stat 3 — Number"
+      stat3_label:
+        type: text
+        label: "Stat 3 — Label"
+
+      # SERVICES
+      services_label:
+        type: text
+        label: "Services — Section Label"
+      services_title:
+        type: text
+        label: "Services — Title"
+      svc1_name:
+        type: text
+        label: "Service 1 — Name"
+      svc1_desc:
+        type: textarea
+        label: "Service 1 — Description"
+      svc2_name:
+        type: text
+        label: "Service 2 — Name"
+      svc2_desc:
+        type: textarea
+        label: "Service 2 — Description"
+      svc3_name:
+        type: text
+        label: "Service 3 — Name"
+      svc3_desc:
+        type: textarea
+        label: "Service 3 — Description"
+      svc4_name:
+        type: text
+        label: "Service 4 — Name"
+      svc4_desc:
+        type: textarea
+        label: "Service 4 — Description"
+      svc5_name:
+        type: text
+        label: "Service 5 — Name"
+      svc5_desc:
+        type: textarea
+        label: "Service 5 — Description"
+      svc6_name:
+        type: text
+        label: "Service 6 — Name"
+      svc6_desc:
+        type: textarea
+        label: "Service 6 — Description"
+
+      # GALLERY
+      gallery_label:
+        type: text
+        label: "Gallery — Section Label"
+      gallery_title:
+        type: text
+        label: "Gallery — Title"
+
+      # PROCESS
+      process_label:
+        type: text
+        label: "Process — Section Label"
+      process_title:
+        type: text
+        label: "Process — Title"
+      step1_title:
+        type: text
+        label: "Step 1 — Title"
+      step1_desc:
+        type: textarea
+        label: "Step 1 — Description"
+      step2_title:
+        type: text
+        label: "Step 2 — Title"
+      step2_desc:
+        type: textarea
+        label: "Step 2 — Description"
+      step3_title:
+        type: text
+        label: "Step 3 — Title"
+      step3_desc:
+        type: textarea
+        label: "Step 3 — Description"
+      step4_title:
+        type: text
+        label: "Step 4 — Title"
+      step4_desc:
+        type: textarea
+        label: "Step 4 — Description"
+
+      # REVIEWS
+      reviews_label:
+        type: text
+        label: "Reviews — Section Label"
+      reviews_title:
+        type: text
+        label: "Reviews — Title"
+      review1_text:
+        type: textarea
+        label: "Review 1 — Text"
+      review1_author:
+        type: text
+        label: "Review 1 — Author"
+      review1_car:
+        type: text
+        label: "Review 1 — Car & Service"
+      review2_text:
+        type: textarea
+        label: "Review 2 — Text"
+      review2_author:
+        type: text
+        label: "Review 2 — Author"
+      review2_car:
+        type: text
+        label: "Review 2 — Car & Service"
+      review3_text:
+        type: textarea
+        label: "Review 3 — Text"
+      review3_author:
+        type: text
+        label: "Review 3 — Author"
+      review3_car:
+        type: text
+        label: "Review 3 — Car & Service"
+      review4_text:
+        type: textarea
+        label: "Review 4 — Text"
+      review4_author:
+        type: text
+        label: "Review 4 — Author"
+      review4_car:
+        type: text
+        label: "Review 4 — Car & Service"
+      review5_text:
+        type: textarea
+        label: "Review 5 — Text"
+      review5_author:
+        type: text
+        label: "Review 5 — Author"
+      review5_car:
+        type: text
+        label: "Review 5 — Car & Service"
+      review6_text:
+        type: textarea
+        label: "Review 6 — Text"
+      review6_author:
+        type: text
+        label: "Review 6 — Author"
+      review6_car:
+        type: text
+        label: "Review 6 — Car & Service"
+
+      # CONTACT
+      contact_label:
+        type: text
+        label: "Contact — Section Label"
+      contact_title:
+        type: text
+        label: "Contact — Title"
+      contact_intro:
+        type: textarea
+        label: "Contact — Intro Text"
+      contact_phone:
+        type: text
+        label: "Contact — Phone Number"
+      contact_instagram:
+        type: text
+        label: "Contact — Instagram Handle"
+      contact_area:
+        type: text
+        label: "Contact — Service Area"
+
+      # FOOTER
+      footer_tagline:
+        type: textarea
+        label: "Footer — Tagline"
 
   gallery:
     path: _gallery
