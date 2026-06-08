@@ -1,5 +1,0 @@
-collections:
-  gallery:
-    output: false
-
-uploads_dir: uploads
