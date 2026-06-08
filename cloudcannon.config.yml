@@ -253,9 +253,12 @@ collections_config:
           values:
             - exterior
             - interior
-      image:
+      src:
         type: image
         label: Photo
-        uploads_dir: photos/Bentley_files
+        uploads_dir: uploads
+      alt:
+        type: text
+        label: Alt Text
 
-uploads_dir: photos/Bentley_files
+uploads_dir: uploads
