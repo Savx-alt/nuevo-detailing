@@ -12,7 +12,6 @@ collections_config:
       - content
       - data
     _inputs:
-      # HERO
       hero_eyebrow:
         type: text
         label: "Hero — Top Label"
@@ -28,7 +27,6 @@ collections_config:
       hero_cta_secondary:
         type: text
         label: "Hero — Secondary Button Text"
-      # ABOUT
       about_label:
         type: text
         label: "About — Section Label"
@@ -62,7 +60,6 @@ collections_config:
       stat3_label:
         type: text
         label: "Stat 3 — Label"
-      # SERVICES
       services_label:
         type: text
         label: "Services — Section Label"
@@ -105,14 +102,12 @@ collections_config:
       svc6_desc:
         type: textarea
         label: "Service 6 — Description"
-      # GALLERY
       gallery_label:
         type: text
         label: "Gallery — Section Label"
       gallery_title:
         type: text
         label: "Gallery — Title"
-      # PROCESS
       process_label:
         type: text
         label: "Process — Section Label"
@@ -143,7 +138,6 @@ collections_config:
       step4_desc:
         type: textarea
         label: "Step 4 — Description"
-      # REVIEWS
       reviews_label:
         type: text
         label: "Reviews — Section Label"
@@ -204,7 +198,6 @@ collections_config:
       review6_car:
         type: text
         label: "Review 6 — Car & Service"
-      # CONTACT
       contact_label:
         type: text
         label: "Contact — Section Label"
@@ -223,21 +216,13 @@ collections_config:
       contact_area:
         type: text
         label: "Contact — Service Area"
-      # FOOTER
       footer_tagline:
         type: textarea
         label: "Footer — Tagline"
 
+data_config:
   gallery:
-    path: _data
-    name: gallery
-    label: Gallery Photos
-    icon: image
-    filter:
-      include:
-        - gallery.yml
-    _enabled_editors:
-      - data
+    path: _data/gallery.yml
     _inputs:
       src:
         type: image
