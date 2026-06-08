@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: hello
+title: hell
 category: exterior
 src: /uploads/download-2-1.jpg
 alt:
